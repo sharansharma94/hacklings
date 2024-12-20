@@ -1,0 +1,41 @@
+# Ignore Go files
+*.go
+
+# Ignore the bin directory
+bin/
+
+# Ignore the vendor directory
+vendor/
+
+# Ignore the .DS_Store file
+.DS_Store
+
+# Ignore the .idea directory
+.idea/
+
+# Ignore the .vscode directory
+.vscode/
+
+# Ignore the .git directory
+.git/
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore the .env file
+.env
+
+# Ignore the .env.example file
+.env.example
+
+# Ignore the .env.local file
+.env.local
+
+# Ignore the .env.development file
+.env.development
+
+# Ignore the .env.test file
+.env.test
+
+# Ignore the .env.production file
+.env.production
