@@ -1,6 +1,8 @@
-package exercises
+package arrays
 
+// TwoSum finds two numbers in the array that add up to the target
 func TwoSum(nums []int, target int) []int {
+	// This is where you'll implement your solution
 
 	seen := make(map[int]int)
 
@@ -13,5 +15,4 @@ func TwoSum(nums []int, target int) []int {
 		seen[num] = i
 	}
 	return nil
-
 }
